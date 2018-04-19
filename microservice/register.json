@@ -1,12 +1,11 @@
 {
-	"name": "#(service.name)",
+	"name": "loadtest-python",
 	"endpoints": [{
-		"path": "/v1/test-gdal-hello/dissolve",
-		"method": "POST",
-		"binary": true,
+		"path": "/v1/loadtest-python",
+		"method": "GET",
 		"redirect": {
-			"method": "POST",
-			"path": "/api/v1/test-gdal-hello/dissolve"
+			"method": "GET",
+			"path": "/api/v1/loadtest-python"
 		}
 	}]
 }
